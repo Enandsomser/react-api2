@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+//import React from "react"
+
+//const x = true eller false eller namn eller annan variabel
+//<>{x ? 'Yes' : 'No'}</>
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Header title='Hello every body'/>
     </div>
   );
 }
+
+//class App extends React.Component {
+ // render() {
+   // return <h1>This is class yes</h1>
+  //}
+//}
 
 export default App;
